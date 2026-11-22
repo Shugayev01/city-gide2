@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: aqua;
+    color:brown
+}
+body {
+    margin: 10;
+    background-color: rgb(243, 209, 148);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+    color: blue;
+   }
+.accent {
+    color: red;
+}
+.logo {
+    font-size: medium;
+    font-weight: 700;
+}
+.hero-label {
+    font-size: smaller;
+    font-weight: 900;
+}
+.site-header {
+    text-align: center;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+}
