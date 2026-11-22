@@ -1,14 +1,16 @@
+
 .button {
     display: inline-block;
     padding: 12px 24px;
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgb(238, 245, 245);
     color:brown
 }
 body {
-    margin: 10;
+    margin: 0;
     background-color: rgb(243, 209, 148);
     font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
 }
 h1, h2, h3 {
     color: blue;
@@ -25,9 +27,69 @@ h1, h2, h3 {
     font-weight: 900;
 }
 .site-header {
+    margin: 10 ;
     text-align: center;
     font-size: 10px;
 }
 a {
     text-decoration: none;
+}
+.menu a {
+    margin-left: 20px;
+    color: green
+}
+.button-outline {
+    background-color: aliceblue;
+    border: 2px solid blue;
+    color: blue;
+}
+.card {
+    width: 500px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #cccc;
+    border-radius: 12px;
+    background-color: #ceb7b7;
+    margin-bottom: 20px;
+}
+.card-top {
+    background-color: green;
+    border: 2px solid blue;
+}
+.card-icon {
+    font-size: 30px;
+}
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.card-info {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.hero {
+    padding: 20px;
+    background-color: #b29494;
+}
+.places {
+    padding: 20px;
+    background-color: #534141;
+}
+.tips {
+    padding: 20px;
+    background-color: #b29494;
+}
+.note {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-left: 100px solid red;
+    font-weight: bold;
+}
+.site-footer {
+    margin-top: 0;
+    background-color: #ceb7b7;
+    color: rgb(73, 143, 120);
+    text-align: center;
 }
